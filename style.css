@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   color: #BCBABF;
+   font-size: 1.2rem;
+}
+
+.navbar {
+    background-color: #182126;
+    height: 64px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.navbar__logo {
+}
+
+.navbar__menu {
+    list-style: none;
+}
+
+.navbar__item {
+    display: inline;
+}
+
